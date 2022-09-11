@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --red: #9d2235;
+    --darkred: #861f2e;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.box {
+    height: 100vh;
+     display: flex;
+      justify-content: center;
+      align-items: center
+}
+
+.continer {
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    animation: fadeIn 0.2s;
+    -webkit-animation: fadeIn 0.2s;
+    -moz-animation: fadeIn 0.2s;
+    -o-animation: fadeIn 0.2s;
+    -ms-animation: fadeIn 0.2s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+.title{
+    margin: 20px 20px 20px 20px ;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(39, 39, 39);
+}
+
+article {
+    margin: 5px;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.logo {
+    max-width: 250px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+b {
+    color: var(--red);
+}
+
+#link {
+    background: var(--red);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#link:hover {
+    background: var(--darkred);
+}
+
+.button {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profimg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+    border: 2px solid var(--red);
+}
+
+.profile {
+    max-width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.desc66 {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+section {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+

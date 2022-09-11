@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --feel: #9d2235;
+    --darkfeel: #861f2e;
+
+}
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.all {
+    margin: 30px 0px 50px 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+     display: flex;
+      justify-content: center;
+      align-items: center
+}
+
+.box {
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.logo {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.logoimg {
+    width: 100%;
+}
+
+.header {
+    margin-top: 20px;  
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+    margin: 10px 0px 10px 0px;
+}
+
+/*form*/
+
+.formulario {
+    margin-top: 45px;
+}
+
+.input:focus {  
+    transition: 0.1s; 
+    outline: 2px solid var(--feel);
+   
+}
+
+.input {
+    width: 90%;
+    outline: 1px solid rgb(204, 204, 204);
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.input::placeholder {
+    color:#5f6368;
+    font-size: 14px;
+}
+
+.formdec{
+    margin-top: 10px;
+}
+
+.formdec >a, #descrip > a, .footer > a {
+    font-size: 14px;
+    text-decoration: none;
+    color:var(--feel);
+    font-weight: 600;
+}
+
+input:focus:required:invalid{
+    outline: 2px solid var(--darkfeel);
+}
+
+#input{
+    margin-top: 30px;
+}
+
+.descform {
+    margin: 30px 0px 30px 0px;
+}
+
+#descrip {
+    font-size: 14px;
+    color:#5f6368;
+}
+
+.button-cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 10px 20px 10px 20px;
+    background:var(--feel);
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background:var(--darkfeel);
+}
+
+.button2 {
+    padding: 10px 20px 10px 20px;
+    color:var(--feel);
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/*footer*/
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    top: 70px;
+}
+
+.footer > p {
+    font-size: 14px;
+    color:#5f6368
+}
+
+
